@@ -1,0 +1,205 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f3f6fb;
+}
+.card-header {
+    background-color: #ffff !important;
+}
+
+
+  
+  /* Overlay with light vintage color */
+  .student-portal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 244, 227, 0.5); /* Adjust opacity and color as needed */
+  }
+  
+  /* Student Portal header styling */
+  .student-portal-header {
+    color: #333; 
+    padding: 20px; 
+  }
+  
+  .student-portal-header {
+    margin-bottom: 20px; 
+  }
+  
+  /* "Add New" button */
+  .add-new-btn {
+    position: relative;
+    top: -10px; 
+  }
+  
+  /* Styles for container */
+  .container {
+    padding: 20px;
+  }
+  
+/* Resetting some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Styles for columns */
+  [class^="col-"] {
+    float: left;
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 768px) {
+    .col-6 {
+      width: 100%;
+    }
+  
+    .col-3 {
+      width: 50%;
+    }
+  
+    .col-12 {
+      width: 100%;
+    }
+  }
+  
+  /* Styles for buttons */
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-outline-success {
+    background-color: transparent;
+    color: #28a745;
+    border: 2px solid #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Styles for cards */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .card-header, .card-body, .card-footer {
+    padding: 10px;
+  }
+  
+  .card-footer {
+    background-color: #f7f7f7;
+  }
+  
+  /* Styles for modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .modal-title {
+    margin: 0;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: right;
+  }
+  
+  /* Responsive styles */
+  .text-end {
+    text-align: end;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Additional styles */
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  small {
+    font-size: 80%;
+  }
+
+  
+
+  
+  
+  
